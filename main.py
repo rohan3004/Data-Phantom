@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from bs4 import BeautifulSoup
+from flask_cors import CORS
 import re
 
 def clean_rating(text):
@@ -7,6 +8,8 @@ def clean_rating(text):
     return match.group() if match else "0"
 
 app = Flask(__name__)
+CORS(app)
+
 HTML_FILE_PATH = "output.html"
 
 def parse_html_stats():
