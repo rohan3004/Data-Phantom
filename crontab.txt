@@ -1,1 +1,0 @@
-0 3 * * * cd /app && /usr/local/bin/python /app/scrape.py >> /app/scrape.log 2>&1

@@ -1,0 +1,6 @@
+.idea
+.vscode
+.venv
+output.html
+crontab.txt
+chromedriver.exe
