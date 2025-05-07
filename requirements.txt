@@ -1,0 +1,6 @@
+Flask
+bs4
+beautifulsoup4
+selenium
+gunicorn
+flask_cors

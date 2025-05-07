@@ -1,0 +1,10 @@
+.idea
+.vscode
+.venv
+output.html
+crontab.txt
+chromedriver.exe
+Dockerfile
+__pycache__/
+cron.log
+venv/
